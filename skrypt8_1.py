@@ -5,5 +5,5 @@ kucyki = {
         'AppleJack': {'kolor':'pomaranczowy','rodzaj':'latajacy', 'obecnosc_skrzydel':'tak','obecnosc_rogu':'nie'}
         }
 print(kucyki)
-for id in kucyki:
-    print(id)
+#for id in kucyki:
+#    print(id)

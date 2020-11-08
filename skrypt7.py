@@ -17,6 +17,5 @@ for klucz in samolot:
 for key, value in samolot.items():
     print("{0}:{1}".format(key, value))
 
-
 #for key in samolot:
 #    print("{0}:{1}".format(key,samolot[key]))

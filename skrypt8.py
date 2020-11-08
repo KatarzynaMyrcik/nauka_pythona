@@ -28,8 +28,9 @@ for id in produkty:
     print(p['nazwa'])
     rozmiary = p['rozmiary']
     print(rozmiary)
-    for r in rozmiary:
-        print(r)
+#    for r in rozmiary:
+#        print(r)
+
 #    print(produkty)
 
 
