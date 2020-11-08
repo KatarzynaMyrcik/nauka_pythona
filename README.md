@@ -1,0 +1,1 @@
+## repozytorium z nauki pythonga
