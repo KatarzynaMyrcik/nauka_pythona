@@ -20,6 +20,5 @@ else:
  if zwierze.startswith('ko'):
      print("zwierze zaczyna sie na ko")
 
-
 if 'ot' in zwierze:
     print("dziala")
