@@ -1,21 +1,19 @@
-#cwiczenia ze slownikiem
-samolot = {'name': 'boeing',
-            'przebieg': 10000,
-            'type': 'pasazerski'}
-# print(samolot)
-# print(samolot['name'])
-# print(samolot['type'])
-# print(samolot.get('name'))
-#dodanie zmiennej do slownika
-#print(samolot['nana'])
-print(samolot.get('nanan'))
-samolot['silnik'] = 'odrzutowy'
-print(samolot)
+skarpetki = {'lewa_paski': 'paski',
+             'prawa_paski': 'paski',
+             'lewa_kropki': 'kropki',
+             'lewa_sloneczka': 'sloneczka'}
+print(skarpetki)
+print(skarpetki['lewa_paski'])
+print(skarpetki.get('lewa_paski'))
+skarpetki['lewa_choinki']= 'choinki'
+skarpetki['lewa_kwiatki'] = 'kwiatki'
+print(skarpetki)
 
-# #petla po kluczu - key
-# for klucz in samolot:
-#     print("{0}:{1}".format(klucz, samolot[klucz]))
+# # petla po kluczu
+# for key in skarpetki:
+#    print("Masz w szafie skarpetke w {0}. Jest to skarpetka {1}".format(skarpetki[key], key))
 
-#petla po kluczu i wartosci
-for key, value in samolot.items():
-    print("{0}:{1}".format(key, value))
+
+# petla po kluczy i wartosci:
+for key, value in skarpetki.items():
+    print("Przyszla pora wyprac skarpetke w {1}. Dokladnie chodzi o te {0}".format(key, value))
